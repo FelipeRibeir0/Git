@@ -21,7 +21,7 @@ else
 </head>
 <body>
     <h1>Git</h1>
-    <p>Que maneiro, eu estou usando Git nesse repositório!</p>
+    <p>Que legal, eu estou usando Git nesse repositório!</p>
     <img src= <?php $img ?> alt="Git Png">
 </body>
 </html>
