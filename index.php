@@ -1,12 +1,15 @@
 <?php
-$num1 = rand(1,2);
-if ($num1 = 1) 
+$num1 = rand(0,30);
+if ($num1 < 15) 
 {
-    $img = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png";
+    $img = "https://cdn.worldvectorlogo.com/logos/git-bash.svg";
+    $text = "Git Bash";
+    
 }
 else 
 {
-    $img = "https://cdn.worldvectorlogo.com/logos/git-bash.svg";
+    $img = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png";
+    $text = "Git";
 }
 ?>
 
@@ -21,7 +24,7 @@ else
 </head>
 <body>
     <h1>Git</h1>
-    <p>Que legal, eu estou usando Git nesse repositório!</p>
-    <img src= <?php $img ?> alt="Git Png">
+    <p>Que maneiro, eu estou usando <?= $text ?> nesse repositório!</p>
+    <img src= "<?= $img ?>" alt="Git Png">
 </body>
 </html>
