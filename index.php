@@ -1,13 +1,12 @@
 <?php
 $num1 = rand(1,2);
-
 if ($num1 = 1) 
 {
-    $img = 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png';
+    $img = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png";
 }
 else 
 {
-    'https://cdn.worldvectorlogo.com/logos/git-bash.svg';
+    $img = "https://cdn.worldvectorlogo.com/logos/git-bash.svg";
 }
 ?>
 
